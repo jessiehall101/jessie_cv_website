@@ -9,17 +9,20 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #222;
-    background: #f7f5f0;
-    line-height: 1.5
+    background-image: url(https://i.ibb.co/1GdfZF4/wallpaper.jpg);
+    line-height: 1.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   /* Link Styles */
   
   a {
     text-decoration: none;
-    color: #0499ff;
+    color: rgb(179, 84, 100);
   }
   a:hover {
-    color: #6633ff;
+    color: #fff;
   }
   
   /* Section Styles */
@@ -80,7 +83,7 @@
     padding: 10px;
     border-radius: 5px;
     display: table;
-    margin: 10px auto;
+    margin: 10px auto 0 auto;
   } 
   .location, .name{
     background-color: #222;
@@ -88,12 +91,13 @@
   }
   .card {
     margin: 0px;
-    padding: 20px 40px 40px;
-    max-width: 500px;
+    padding: 20px 40px 20px;
+    max-width: 520px;
     text-align: left;
-    background: #fff;
+    background: #222;
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
+    color: pink;
   }
   .card:hover {
     border-color: #ff99ff;
