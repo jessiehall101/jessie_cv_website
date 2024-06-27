@@ -4,7 +4,7 @@
 
 body {
     font-family:"Arial";
-    background-color:#fae6e9;
+    background-color:#e4dbdc;
     
   }
   header {
@@ -68,7 +68,7 @@ body {
     border-radius: 10px;
   }
   .intro {
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
